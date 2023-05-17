@@ -42,7 +42,7 @@ st.sidebar.subheader("Clear chats")
 
 st.write("Given the question, we extract keywords from the text. we focus on extracting the keywords that we can use to best lookup answers to the question\
          based on the table we used to fine-tune our models")
-st.write("Question example: if I have frontal headache, fever, and painful sinuses, what disease should I have, and what  medical test should I take?")
+st.write("Question example: if I have frontal headache, fever, and painful sinuses, what disease do I have, and what  medical test should I take?")
 
 
 counter_placeholder = st.sidebar.empty()
