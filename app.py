@@ -39,6 +39,12 @@ if 'total_cost' not in st.session_state:
 # Sidebar - let user choose model, show total cost of current conversation, and let user clear the current conversation
 st.sidebar.subheader("Clear chats")
 # model_name = st.sidebar.radio("Choose a model:", ("GPT-3.5", "GPT-4"))
+
+st.write("Given the question, we extract keywords from the text. we focus on extracting the keywords that we can use to best lookup answers to the question\
+         based on the table we used to fine-tune our models")
+st.write("Question example: if I have frontal headache, fever, and painful sinuses, what disease should I have, and what  medical test should I take?")
+
+
 counter_placeholder = st.sidebar.empty()
 # counter_placeholder.write(
 # f"Total cost of this conversation: ${st.session_state['total_cost']:.5f}")
