@@ -9,7 +9,8 @@ st.markdown("<h1 style='text-align: center;'>Chat to AI doctor 😬</h1>",
             unsafe_allow_html=True)
 
 # Set org ID and API key
-openai.api_key = "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"
+openai.api_key = st.secrets['api_key'] 
+
 
 openai_api_key_textbox = ""
 model = None
